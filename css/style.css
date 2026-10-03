@@ -1,0 +1,87 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Body */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #141414; /* Off-black main background */
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Card Container */
+.profile-card {
+  background-color: #1f1f1f; /* Dark grey card container */
+  width: 100%;
+  max-width: 380px;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Avatar Styling */
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+/* Text Content */
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.location {
+  color: #c4f038; /* Accent lime green */
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.bio {
+  font-size: 0.875rem;
+  color: #d6d6d6;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+/* Navigation Links */
+.links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links-list li a {
+  display: block;
+  background-color: #333333; /* Dark button background */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 14px 0;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Interactive Hover Effect */
+.links-list li a:hover {
+  background-color: #c4f038; /* Bright lime green hover */
+  color: #141414; /* Dark text on hover */
+  cursor: pointer;
+}
