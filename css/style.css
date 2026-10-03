@@ -81,7 +81,7 @@ body {
 
 /* Interactive Hover Effect */
 .links-list li a:hover {
-  background-color: #c4f038; /* Bright lime green hover */
+  background-color: Grey 700: hsl(0, 0%, 20%); /* Bright lime green hover */
   color: #141414; /* Dark text on hover */
   cursor: pointer;
 }
